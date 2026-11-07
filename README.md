@@ -44,7 +44,7 @@ Para carregar os módulos no GHCi:
 
 E é possível testar as funções utilizando os dados definidos em `TestData.hs`:
 
-   :module + Domain TestData
+    :module + Domain TestData
 
 
 
