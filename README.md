@@ -28,6 +28,7 @@ O sistema permite representar pilotos, equipas, corridas e resultados, bem como 
 
 
 Para verificar se os módulos compilam corretamente, executar no terminal:
+  
     ghc -fno-code Model.hs Domain.hs TestData.hs
 
 
@@ -36,11 +37,13 @@ Para verificar se os módulos compilam corretamente, executar no terminal:
 4. Execução e testes
 
 Para carregar os módulos no GHCi:
+  
     ghci Model.hs Domain.hs TestData.hs
 
 
 
 E é possível testar as funções utilizando os dados definidos em `TestData.hs`:
+
    :module + Domain TestData
 
 
